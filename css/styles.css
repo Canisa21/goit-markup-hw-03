@@ -28,6 +28,7 @@ body {
     text-decoration: none;
     color:var(--color-headings);
     display: flex;
+    align-items: center;
     }
 
 .logo-web{
@@ -169,13 +170,15 @@ body {
 
  .projects-list {
     list-style-type: none;
+    
  }
  .project-title { 
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.4px;
-        color: var(--color-headings)
+        color: var(--color-headings);
+        
 
  }
 
@@ -198,6 +201,8 @@ body {
         font-weight: 500;
         line-height: 1, 5;
         letter-spacing: 0.64px;
+        padding: 12px 24px;
+        align-items: center;
         }
 
  .filters-list .filter-button:hover,
@@ -218,9 +223,10 @@ color: rgba(255, 255, 255, 1);
     border-bottom: 1px solid rgba(231, 233, 252, 1);
 }
 
- .header-wrapper >nav {
+ .header-wrapper > nav {
      display: flex;
  }
+ 
 
  .header-wrapper > nav > menu {
     display: flex;
@@ -244,6 +250,10 @@ color: rgba(255, 255, 255, 1);
     gap: 24px;
  }
 
+
  .projects-wrapper > ul {
     display: flex;
+   flex-wrap: wrap;
+   flex-basis: calc((100% - 48px) / 3);
  }
+
