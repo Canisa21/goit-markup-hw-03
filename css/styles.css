@@ -80,6 +80,7 @@ body {
         line-height: 10,7 ;
         letter-spacing: 1.12px;
         text-align: center;
+        
 }
 
 .order-service {
@@ -88,6 +89,10 @@ body {
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
+    margin: 48px 635px 188px 636px;
+    padding: 16px 32px;
+
+   
 }
 
 .main-pillars-list {
@@ -120,8 +125,12 @@ body {
 .solutions-list {
     list-style-type: none;
 }
+.section-team {
+    background-color: var(--background-color-ourteam);
+}
 .team-list {
     list-style-type: none;
+   
 }
 .team-names {
     color: var(--color-headings);
@@ -130,13 +139,15 @@ body {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.4px;
+        background-color: var(--background-color-header);
 }
 .team-position {
         text-align: center;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.32px;
-        color: var(--color-text)
+        color: var(--color-text);
+        background-color: var(--background-color-header);
 }
 
 .footer-style {
@@ -208,10 +219,57 @@ background-color: rgba(64, 75, 191, 1);
 color: rgba(255, 255, 255, 1);
  }
 
-
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
  .container {
-     max-width: 1158px;
+     max-width: 1440px;
      margin-inline: auto;
-    padding: 0 15;
+     padding: 0 15;
  }
+ 
+ .menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(231, 233, 252, 1);
+    padding: 24px 156px;
+    align-items: center;
+ }
+ .menu-wrapper>nav {
+    display: flex;
+    gap: 76px;
+    align-items: center;
+
+ }
+ .menu-wrapper>nav>menu {
+    display: flex;
+    gap: 40px
+ }
+ .menu-wrapper>ul {
+    display: flex;
+    gap: 40px;
+ }
+.menu-wrapper>menu>ul {
+    gap: 332px;
+
+}
+
+.heading-wrapper>h1 {
+    box-sizing: border-box; 
+    padding: 188px 472px 292px;
+
+}
+
+.pillars-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.solutions-wrapper {
+    display: flex;
+        justify-content: space-between;
+}
+
 
