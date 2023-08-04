@@ -27,8 +27,6 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color:var(--color-headings);
-    display: flex;
-    align-items: center;
     }
 
 .logo-web{
@@ -75,7 +73,6 @@ body {
 .section-main-heading {
     color: var(--color-h1);
     background-color: var(--background-color-heading);
-   
 }
 .main-heading {
         font-size: 56px;
@@ -211,49 +208,10 @@ background-color: rgba(64, 75, 191, 1);
 color: rgba(255, 255, 255, 1);
  }
 
+
  .container {
-    max-width: 1158px;
-    margin-inline: auto;
-    padding-inline: 15px;
- }
-
-.header-wrapper {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(231, 233, 252, 1);
-}
-
- .header-wrapper > nav {
-     display: flex;
- }
- 
-
- .header-wrapper > nav > menu {
-    display: flex;
-    gap: 40px;
- }
-.header-wrapper > menu > ul {
-    gap: 332px;
-}
-
- .header-wrapper > ul {
-    display: flex;
-    gap: 40px;
-}
-
- .filters-wrapper {
-    display: flex;
-    justify-content: center;
- }
- .filters-wrapper > ul {
-    display: flex;
-    gap: 24px;
- }
-
-
- .projects-wrapper > ul {
-    display: flex;
-   flex-wrap: wrap;
-   flex-basis: calc((100% - 48px) / 3);
+     max-width: 1158px;
+     margin-inline: auto;
+    padding: 0 15;
  }
 
