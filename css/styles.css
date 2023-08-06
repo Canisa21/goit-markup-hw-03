@@ -85,27 +85,15 @@ body {
         justify-content: center;
         align-items: center;
 }
-.main-heading>h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.main-heading>button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 188px;
-}
-.main-heading>h1>button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .section-main-heading {
     color: var(--color-h1);
     background-color: var(--background-color-heading);
     padding-bottom: 188px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -119,7 +107,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 480px;
+    margin: auto;
 }
 
 .section-main-pillars {
