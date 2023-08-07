@@ -117,7 +117,8 @@ body {
     list-style-type: none;
     display: flex;
     gap: 24px;
-    
+    margin: 0px;
+    padding-left: 0px;
 }
 
 .main-pillars {
@@ -154,6 +155,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    padding-inline-start: 0px;
 }
 .section-team {
     background-color: var(--background-color-ourteam);
@@ -164,6 +166,8 @@ body {
     justify-content: space-between;
     gap: 24px;
 background-color: var(--background-color-ourteam);
+padding-inline-start: 0px;
+margin: 0px
 }
 
 .team-style {
@@ -214,6 +218,7 @@ background-color: var(--background-color-ourteam);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.32px;
+        margin-bottom: 0px;
         
         
         
