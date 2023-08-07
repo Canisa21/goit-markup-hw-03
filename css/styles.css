@@ -79,7 +79,7 @@ body {
         text-align: center;  
         margin-top: 0px;
         margin-bottom: 0px;
-        padding-top: 188px;
+        padding-top: 68px;
         padding-bottom: 48px;
         display: flex;
         justify-content: center;
@@ -297,6 +297,7 @@ margin: 0px
         padding-top: 96px;
         padding-bottom: 72px;
         margin: 0px;
+        padding-inline-start: 0px;
 }
 
 .filter-button {
