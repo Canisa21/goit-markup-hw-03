@@ -335,7 +335,6 @@ color: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgba(231, 233, 252, 1);
-    padding: 24px;
     align-items: center;
  }
  .menu-wrapper>nav {
