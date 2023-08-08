@@ -16,6 +16,15 @@ body {
     --color-footer: rgba(244, 244, 253, 1);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-wrapper {
+    min-height: 72px;
+}
 
 .logo-style {
     font-family: var(--font-logo);
